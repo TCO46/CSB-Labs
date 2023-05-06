@@ -1,8 +1,6 @@
-inputNumber = int(input("Input number: "))
+inputNumber = float(input("Input number: "))
 
-# if isinstance(inputNumber, int) == True:
-#     print(f"{inputNumber} is an integer")
-
-# print(isinstance(inputNumber, int))
-
-print(type(inputNumber))
+if inputNumber == int(inputNumber):
+    print(f"{inputNumber} is an interger")
+else:
+    print(f"{inputNumber} is not an interger")
